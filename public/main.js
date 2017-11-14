@@ -20,7 +20,8 @@ $(document).ready(function (){
    'interest':interests
  }
 
- $.post("find.html", payload);
+ $.post("/find", payload);
+ $.get("/find"),payload);
 
 
  /*$.post('find.html',payload);
